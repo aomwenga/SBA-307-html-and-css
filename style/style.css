@@ -1,0 +1,50 @@
+.card {
+  margin-top: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+  text-decoration: none;
+  color: #007bff;
+  padding: 0 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+#dropdown {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #fff;
+}
+
+.list-group-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+h1 {
+  color: #fff;
+  background-color: rgba(129, 36, 127, 0.847);
+  padding: 20px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px rgba(218, 194, 14, 0.914);
+}
+
+.list-group-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.list-group-item:hover {
+  background-color: rgba(0, 123, 255, 0.1);
+  transform: scale(1.02);
+}

@@ -1,16 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kobe</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./style/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mamba</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style/style.css" />
+    <style>
+      body {
+        height: 100vh;
+        margin: 0;
+        background: linear-gradient(
+          to bottom,
+          rgba(207, 68, 207, 0.579) 50%,
+          rgba(232, 203, 41, 0.738) 50%
+        );
+      }
+    </style>
+  </head>
+  <body>
     <div>
-        <h1>Kobe</h1>
+      <h1 class="text-center">Kobe Bean Bryant</h1>
+      <div class="card mx-auto" style="width: 50%">
+        <img
+          class="card-img-top"
+          src="./images/kobe ball.jpeg"
+          alt="Kobe laying on basketball"
+        />
+        <div class="card-body">
+          <h3 class="card-title text-center">G.O.A.T</h3>
+        </div>
+      </div>
+      <h4>FACTS</h4>
+      <ul class="list-group">
+        <li class="list-group-item d-flex flex-column align-items-center">
+          Five NBA Championships: Led the Lakers to five titles, showing his
+          ability to win at the highest level.
+          <img
+            class="mt-2"
+            src="./images/kobe-bryant-five-rings.gif"
+            alt="Kobe Bryant with five rings"
+          />
+        </li>
+        <li class="list-group-item">
+          18 All-Star Selections: Demonstrated consistent excellence over nearly
+          two decades.
+        </li>
+        <li class="list-group-item">
+          81-Point Game: Scored the second-highest points in a single game,
+          showcasing his scoring prowess.
+        </li>
+        <li class="list-group-item">
+          Mamba Mentality: Known for his unparalleled work ethic,
+          competitiveness, and relentless drive to improve.
+        </li>
+        <li class="list-group-item">
+          Versatile Skill Set: Elite scorer, defender, and playmaker who
+          excelled in all facets of the game.
+        </li>
+        <li class="list-group-item">
+          Clutch Performer: Delivered in crucial moments with numerous
+          game-winning shots.
+        </li>
+        <li class="list-group-item">
+          Two Finals MVP Awards: Proved his dominance in the biggest games of
+          the season.
+        </li>
+        <li class="list-group-item">
+          Longevity: Played 20 seasons with the Lakers, maintaining a high level
+          of performance throughout.
+        </li>
+        <li class="list-group-item">
+          Cultural Impact: Inspired millions worldwide with his approach to the
+          game and life.
+        </li>
+        <li class="list-group-item">
+          Legacy: Left a lasting influence on the game, inspiring future
+          generations of players.
+        </li>
+      </ul>
+      <br />
+      <p2
+        >This is the home page because here at FACTS we believe this is the best
+        option for this arguement. You may choose one of the following options
+        to see what we have about the others in the conversation.</p2
+      ><br />
+      <div class="flex-container">
+        <nav>
+          <a href="./index.html">Kobe Bryant</a> |
+          <a href="./pages/mj.html">Michale Jordan</a> |
+          <a href="./pages/lebron.html">Lebron James</a> |
+        </nav>
+      </div>
+      <br />
+      <h5>Choose your G.O.A.T</h5>
+      <select id="dropdown">
+        <option value="Kobe Bryant">Kobe Bryant</option>
+        <option value="Michael Jordan">Michael Jordan</option>
+        <option value="LeBron James">Lebron James</option>
+      </select>
+
+      <form>
+        <h4>
+          If you think there's a player we should add, please submit their name.
+        </h4>
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          placeholder="First Name"
+        /><br />
+        <input type="text" id="lname" name="lname" placeholder="Last Name" />
+      </form>
+      <br />
     </div>
-</body>
+  </body>
 </html>
